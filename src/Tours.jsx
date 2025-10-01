@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Tour from './Tour';
 
 const Tours = ({ tours, setTours, fetchTours, removeTour }) => {
@@ -20,7 +19,7 @@ const Tours = ({ tours, setTours, fetchTours, removeTour }) => {
                 className="btn"
                 onClick={() => fetchTours()}
               >
-             Refresh
+                Refresh
               </button>
             </div>
           </main>
