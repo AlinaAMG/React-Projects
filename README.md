@@ -1,36 +1,26 @@
-## Figma URL
+### Accordion Questions-App
 
-[Accordion](https://www.figma.com/file/TAwJ3kWOqkw0o8UVtAMOHO/Accordion?node-id=0%3A1&t=1YEti8xBykw69tBH-1)
+![React-App]https://github.com/AlinaAMG/React-Projects/blob/accordion-app/public/questions.jpg
 
-## Steps
 
-#### Examine and Import Data
+Een React-applicatie waarmee je veelgestelde vragen (FAQ) in een accordion-style kunt weergeven. Klik op een vraag om het antwoord te tonen of te verbergen.
 
-Review data.js and import the questions array from data.js into your project. This array should contain objects that represent the questions and their associated data, such as the question text
+🚀 Functionaliteiten
 
-#### Setup State Value
+Dynamisch tonen van vragen en antwoorden vanuit een data-array.
 
-Next, set up the questions array as a state variable using the useState hook. This will allow you to modify the data and have those changes automatically reflected in the rendered output.
+Toggle-functionaliteit: klik op een vraag om het antwoord in of uit te klappen.
 
-#### Render Questions
+Alleen één component logica nodig dankzij React useState.
 
-To display the list of questions, you can iterate over the questions array and render a SingleQuestion component for each item in the array. Each SingleQuestion component should display the question text in the header, along with a button to toggle the question text.
+React Icons (+ / -) geven visuele feedback of een vraag open of gesloten is.
 
-#### Toggle Question
+Conditional rendering met JSX ternary operators (? :) voor antwoorden en iconen.
 
-In the SingleQuestion component, you can set up the functionality for the toggle button by defining a function that toggles the state of a "showInfo" flag. When the flag is set to true, the answer text will be displayed. When the flag is set to false, only the question text will be displayed.
+🛠️ Gebruikte technologieën
 
-#### Extra Challenge
+React – UI-componenten en state management met useState.
 
-To set up the functionality where only one question is displayed at a time, you can modify the state of the questions array to keep track of the currently selected question. You can do this by defining a function that updates the state to reflect the selected question index. Then, you can use the selected question index to render only the SingleQuestion component that corresponds to the currently selected question.
+React Icons – plus/min icoon bij het togglen van vragen.
 
-Overall, the flow of the application should look something like this:
-
-- Import the questions array from data.js into your project.
-- Set up the questions array as a state variable using the useState hook.
-- Iterate over the questions array and render a SingleQuestion component for each item in the array.
-- In the SingleQuestion component, display the question text in the header and a button to toggle the question text.
-- Define a function that toggles the state of a "showAnswer" flag, which determines whether the answer text is displayed or not.
-- Modify the state of the questions array to keep track of the currently selected question index.
-- Define a function that updates the state to reflect the selected question index.
-- Use the selected question index to render only the SingleQuestion component that corresponds to the currently selected question.
+CSS – eenvoudige styling van accordion en knoppen.
