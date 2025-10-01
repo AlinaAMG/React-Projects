@@ -1,5 +1,7 @@
 # 🧳 Tours App
 
+![App Screenshot] (https://github.com/AlinaAMG/React-Projects/blob/tours-app/public/tours.jpg)
+
 Een kleine React-applicatie waarin je een lijst met tours kunt bekijken, verwijderen en opnieuw laden.  
 
 ## 📌 Functionaliteiten
