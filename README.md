@@ -1,5 +1,7 @@
 ### Review Carousel App
 
+![App Screenshot]("https://github.com/AlinaAMG/React-Projects/blob/reviews-app/public/reviews.jpg")
+
 Dit project is een kleine React-applicatie waarin gebruikers door reviews  kunnen bladeren. De app toont telkens een persoon met naam, job, afbeelding en tekst. Met knoppen kun je vooruit, terug of een willekeurige persoon selecteren.
 
 🚀 Functionaliteiten
