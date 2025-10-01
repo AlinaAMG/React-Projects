@@ -1,6 +1,6 @@
 ### Accordion Questions-App
 
-![React-App]https://github.com/AlinaAMG/React-Projects/blob/accordion-app/public/questions.jpg
+![React-App](https://github.com/AlinaAMG/React-Projects/blob/accordion-app/public/questions.jpg)
 
 
 Een React-applicatie waarmee je veelgestelde vragen (FAQ) in een accordion-style kunt weergeven. Klik op een vraag om het antwoord te tonen of te verbergen.
