@@ -1,6 +1,8 @@
 
 🎂 Birthday App
 
+![Birthday-app](https://github.com/AlinaAMG/React-Projects/blob/birthday-app/public/birthday-app.jpg)
+
 Een eenvoudige React-app waarin een lijst van mensen met hun naam, leeftijd en foto wordt weergegeven.
 De data wordt in de state bewaard en met behulp van de .map() functie gerenderd in de UI.
 
