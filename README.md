@@ -2,6 +2,8 @@
 
  ![React-App](https://github.com/AlinaAMG/React-Projects/blob/menu-app/public/images/menu.jpg)
 
+ 
+
 Een simpele React applicatie die een lijst met gerechten toont.  
 Je kunt filteren op categorieën zoals **all**,  **breakfast**, **lunch** en **shakes**.  
 
