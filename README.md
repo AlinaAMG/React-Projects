@@ -3,6 +3,7 @@
 
 ![React-App](https://github.com/AlinaAMG/React-Projects/blob/lorem-ipsum/src/assets/lorem.jpg)
 
+###
 Een kleine React app die Lorem Ipsum tekst genereert. De tekst wordt geladen uit een apart bestand (data.js) en weergegeven in de UI op basis van de gebruiker input.
 
 ✨ Features
