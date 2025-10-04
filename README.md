@@ -1,4 +1,4 @@
-🎠 ### React Carousel App
+🎠 React Carousel App
 
 ![React-App](https://github.com/AlinaAMG/React-Projects/blob/carousel-slider/src/assets/slider.jpg)
 
