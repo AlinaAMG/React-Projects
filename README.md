@@ -1,59 +1,33 @@
-## Figma URL
+🎠 ### React Carousel App
 
-[Slider](https://www.figma.com/file/QfMzzThSYmgabSvn4t8Yfe/Slider?node-id=0%3A1&t=IpsYjMUn3Xj3Hs3N-1)
+![React-App](https://github.com/AlinaAMG/React-Projects/blob/carousel-slider/src/assets/slider.jpg)
 
-## Steps
+Een responsive Carousel applicatie gebouwd met React, waarin data wordt geladen uit een apart bestand (data.js).
 
-#### Explore Data
+De app bevat twee versies:
 
-Explore arrays in data.js
+1.Custom Carousel met React Hooks
+Handmatige implementatie met useState en useEffect
+React Icons voor de Prev en Next knoppen
 
-#### Import Data and Set State Value
+2.Carousel met react-slick
+Gebouwd met de populaire react-slick slider library
+Ondersteunt automatische sliding en meer features out-of-the-box
 
-Create Carousel.jsx, import all arrays from data.js and set up state value using the useState hook, use shortList as default value (for now).
 
-#### Setup Container and Prev/Next Buttons
+✨ Features
 
-In the return statement, set up a container element to hold all the slides. Inside the container, iterate over the people state value to create each slide.
+📷 Toont afbeelding, naam, titel en tekst uit data.js
 
-Set up prev and next buttons outside the container element. You can use the onClick event to trigger functions that will change the current slide.
+⬅️➡️ Vorige en Volgende knoppen met React Icons
 
-#### Setup CSS
+🎨 Gestyled met CSS voor een modern design
 
-Use CSS to style the container and slides. Set the container to position:relative and the slides and prev/next buttons to position:absolute. You can also set the width and height of the container and slides to control their size.
+📱 Responsive layout (werkt goed op desktop, tablet en mobiel)
 
-Switch default value in people state value. Set it equal to list or longList
+🔄 Twee implementaties beschikbaar:
 
-#### Main Logic
+Custom carousel met React Hooks
 
-To move the slides back and forth, use the transform property with a translateX value. For example, to move the slides to the left, you can use the transform:translateX(-100%) property however to move the slides to the right, you can use the transform:translateX(100%) property. For the active slide we will use transform:translateX(0)
+Carousel met react-slick
 
-#### Current Person
-
-Create a currentPerson state value in App.jsx and set it to 0 initially. This will allow you to keep track of the current slide being displayed.
-
-#### Prev and Next
-
-Implement the prev and next functionality using the setCurrentPerson function to update the currentPerson state value.
-
-#### Auto Slide
-
-Implement the auto slide functionality using the setInterval function to change the currentPerson state value at regular intervals.
-
-#### Extra - React Slick Library
-
-[React Slick Docs](https://react-slick.neostack.com/)
-
-```sh
-npm install react-slick slick-carousel --save
-```
-
-Overall, the flow of the application should look something like this:
-
-- In App.jsx, import the people array from data.js and set it up as a state value using the useState hook.
-- In the return statement, set up a container element to hold all the slides, and iterate over the people state value to create each slide.
-- Set up prev and next buttons and style the container,slides and buttons.
-- Uncomment the rest of the items in the people array.
-- Create a currentPerson state value in App.jsx and set it to initially.
-- Implement the prev and next functionality using the setCurrentPerson function to update the currentPerson state value and move the slides back and forth using the transform property with a translateX value.
-- Implement the auto slide functionality using the setInterval function to change the currentPerson state value at regular intervals.
