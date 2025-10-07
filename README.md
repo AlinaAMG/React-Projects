@@ -1,7 +1,7 @@
 
 # Grocery Bud 🛒
 
-https://github.com/AlinaAMG/React-Projects/blob/grocery-bud/src/assets/grocery-bud.jpg
+![React-app](https://github.com/AlinaAMG/React-Projects/blob/grocery-bud/src/assets/grocery-bud.jpg)
 
 Een eenvoudige maar krachtige React-app waarmee je boodschappen kunt beheren.  
 Gebruikers kunnen items toevoegen, markeren als voltooid, verwijderen en alles blijft bewaard in **Local Storage** (ook na een refresh van de pagina).  
