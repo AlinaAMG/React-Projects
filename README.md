@@ -1,5 +1,7 @@
 ### 🎠 React Carousel App
 
+## LIve Demo https://carousel-slider-app.netlify.app/
+
 ![React-App](https://github.com/AlinaAMG/React-Projects/blob/carousel-slider/src/assets/slider.jpg)
 
 Een responsive Carousel applicatie gebouwd met React, waarin data wordt geladen uit een apart bestand (data.js).
