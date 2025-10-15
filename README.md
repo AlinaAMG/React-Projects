@@ -1,5 +1,7 @@
 # Strapi Submenus React App
 
+## Live Demo   https://strapi-submenu-app.netlify.app/
+
 ![React-app](https://github.com/AlinaAMG/React-Projects/blob/strapi-submenus/src/assets/strapi.jpg)
 
 
