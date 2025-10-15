@@ -1,6 +1,10 @@
 
-
 ## 🛒 Shopping Cart met React (useReducer + Context API)
+
+
+## Live Demo
+https://cart-app-use-reducer.netlify.app/
+
 
 ![React-app](https://github.com/AlinaAMG/React-Projects/blob/cart-useReducer/src/assets/cart.jpg)
 
