@@ -1,6 +1,8 @@
 
 # 🥂 Drink App
 
+![React-app](https://github.com/AlinaAMG/React-Projects/blob/Drink-App/src/assets/mixmaster.png)
+
 Een moderne **React Drink App** gebouwd met **React Query**, **React Router**, **Styled Components** en **React Toastify**.  
 De app haalt drankjes  op uit een externe API, toont ze in een overzichtelijke interface en geeft gedetailleerde informatie over elke cocktail.  
 Gebruikers kunnen ook inschrijven op een nieuwsbrief, waarbij de data naar een eigen backend wordt verstuurd.  
