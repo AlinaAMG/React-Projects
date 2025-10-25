@@ -2,6 +2,8 @@
 
 # 📱 Redux Toolkit Winkelmand App
 
+Kijk Live https://reduxtoolkit-app.netlify.app/
+
 ![Redux/toolkit](https://github.com/AlinaAMG/React-Projects/blob/redux/toolkit/public/cart.png)
 
 
